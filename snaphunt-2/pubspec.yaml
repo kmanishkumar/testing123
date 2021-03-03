@@ -1,0 +1,117 @@
+name: snaphunt
+description: SnapHunt - Flutter Philippines Hackathon 2019 Entry
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # firebase
+  firebase_core: ^0.5.0
+
+  # realtime db
+  cloud_firestore: ^0.14.0+2
+
+  # ml
+  firebase_ml_vision: ^0.9.6+2 
+
+  # auth
+  firebase_auth: ^0.18.0+1
+  google_sign_in: ^ 4.5.3
+
+  # di
+  provider: ^4.3.2+1
+
+  # qr
+  qr_flutter: ^3.2.0
+  flutter_barcode_scanner: ^1.0.0
+
+  # camera feed
+  camera: ^0.5.7+4
+  path_provider: ^1.6.14
+
+  # vibrator
+  vibration: ^1.4.0
+
+  # check connectivity
+  connectivity: ^0.4.9+2
+
+  # autosize text
+  auto_size_text: ^2.1.0
+
+  # local db
+  hive: ^1.4.4
+  hive_flutter: ^0.3.1
+
+  # screenshot widget
+  screenshot: ^0.1.1
+
+  # share images
+  esys_flutter_share: ^1.0.2
+
+  expandable: ^4.1.4
+
+   # wave
+  wave: ^0.0.8
+
+  # list animations are <3
+  flutter_staggered_animations: ^0.1.2
+
+  # introduction
+  intro_views_flutter: ^2.8.1
+
+  auto_route: ^0.6.1
+  
+  freezed_annotation:
+
+  state_notifier: ^0.4.0
+
+  flutter_state_notifier: ^0.4.2
+
+  json_serializable: ^3.3.0
+
+dev_dependencies:
+  # flutter_test:
+  #   sdk: flutter
+  flutter_native_splash: ^0.1.9
+
+  lint: ^1.0.0
+
+  auto_route_generator: ^0.6.10
+
+  build_runner:
+
+  freezed:
+
+flutter_native_splash:
+  image: assets/splash.png
+  color: "ffffff"
+  ios: false
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/default.json
+    - assets/top.png
+    - assets/main.png
+    - assets/trophy.png
+    - assets/intro_one.png
+    - assets/intro_two.png
+    - assets/intro_three.png
+    - assets/intro_four.png
+    - assets/intro_five.png
+    - assets/intro_six.png
+  
+  fonts:
+  - family: SF_Atarian_System
+    fonts:
+    - asset: assets/fonts/SF_Atarian_System.ttf
+    - asset: assets/fonts/SF_Atarian_System_Bold.ttf
+      weight: 700
